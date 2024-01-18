@@ -74,14 +74,14 @@ input {
     border-radius: 6px;
     outline: none;
     font-family: sans-serif;
-    background-color: rgba(143, 109, 146, 0.63);
+    background-color: rgba(143, 109, 146, 0.925);
     color: rgb(14, 12, 12);
     border: 1px solid grey;
 }
 
 form select,
 button {
-    background: linear-gradient(200deg, rgb(202, 197, 195) 30%, rgb(255, 178, 35));
+    background: linear-gradient(250deg, rgb(223, 221, 220) 30%, rgb(255, 147, 6));
     cursor: pointer;
     transition: all 0.7s ease;
     box-shadow: 4px 4px 2px rgb(119, 118, 118);
