@@ -298,9 +298,14 @@ form select {
     form p {
         font-size: 19px;
     }
-    
-    .select-container select{
+
+    .select-container select {
         font-size: 13px;
+    }
+
+    .dropDown {
+        display: flex;
+        gap: 10px;
     }
 }
 
@@ -315,9 +320,79 @@ form select {
     }
 }
 
+@media screen and (max-width: 244px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    form label {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 240px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    form label {
+        font-size: 17px;
+    }
+
+    form p {
+        font-size: 17px;
+    }
+
+    form i {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:234px) {
+    h1 {
+        font-size: 19px;
+    }
+
+    form i {
+        font-size: 20px;
+    }
+}
 
 
+@media screen and (max-width:229px) {
+    h1 {
+        font-size: 19px;
+    }
 
+    form i {
+        font-size: 20px;
+    }
+
+    button{
+        font-size: 16px;
+    }
+
+    form i{
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width:224px) {
+    h1{
+        font-size: 17px;
+    }
+
+    form p{
+        font-size: 15px;
+    }
+
+    form i{
+        font-size: 12px;
+    }
+
+
+}
 
 
 @media screen and (max-width: 223px) {
@@ -340,6 +415,14 @@ form select {
     form input {
         width: 80%;
         height: 20px;
+    }
+
+    .dropDown {
+        gap: 2px;
+    }
+
+    form i {
+        font-size: 10px;
     }
 
 }
