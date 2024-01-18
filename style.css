@@ -24,6 +24,7 @@ body {
     background-color: rgb(18, 211, 224);
     border: none;
     border-radius: 10px;
+    margin: 20px 0px;
     padding: 20px;
     height: 80%;
     max-width: 90vw;
@@ -137,6 +138,7 @@ option {
 #rate {
     background: linear-gradient(55deg, rgb(55, 55, 163) 20%, rgb(152, 165, 165) 50%, rgb(170, 69, 69) 90%);
     transition: all 0.3s ease-in-out;
+    color: white;
 }
 
 button:active {
@@ -397,7 +399,7 @@ form select {
 
 @media screen and (max-width: 223px) {
     h1 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     form label {
